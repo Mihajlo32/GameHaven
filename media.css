@@ -1,0 +1,152 @@
+@media screen and (max-width: 100rem) {
+  .screenshots1,
+  .screenshots2 {
+    width: 90%;
+  }
+  .main-head {
+    font-size: 4.2rem;
+  }
+  .grid--3--cols {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 56rem) {
+  .grid--2--cols {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .screenshots-head {
+    margin-left: 4rem;
+  }
+  .logo {
+    margin-left: 3rem;
+    width: 12rem;
+  }
+  .nav-bar {
+    margin-right: 3rem;
+  }
+  .list-ele a:link {
+    font-size: 1.4rem;
+  }
+  .reviews-head {
+    font-size: 3.2rem;
+  }
+  .rating {
+    width: 20rem;
+  }
+  .color {
+    width: 90%;
+  }
+  .rating-text {
+    font-size: 1.2rem;
+  }
+  .client {
+    font-size: 1.4rem;
+  }
+  .name {
+    font-size: 1.8rem;
+  }
+  .content-head {
+    font-size: 4.2rem;
+  }
+  .content-text {
+    font-size: 1.6rem;
+  }
+  footer {
+    padding: 1rem 6rem;
+  }
+}
+@media screen and (max-width: 43.5rem) {
+  .nav-bar {
+    display: none;
+  }
+
+  .list-ele a:link {
+    font-size: 1.2rem;
+  }
+  .main-content {
+    width: 35rem;
+    top: -15rem;
+    left: 2rem;
+    padding: 2rem;
+  }
+  .main-head {
+    font-size: 2.8rem;
+  }
+  .robo {
+    font-size: 1.4rem;
+  }
+  .pre-head {
+    margin-bottom: 2rem;
+  }
+  .rpg {
+    font-size: 1.2rem;
+  }
+  .main-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  .rew1,
+  .rew2,
+  .rew3 {
+    overflow: hidden;
+    padding: 2rem 3rem;
+  }
+  .open-world-content {
+    padding: 4rem;
+  }
+  .reviews {
+    margin: 2rem 2rem;
+  }
+  .rew3 {
+    display: none;
+  }
+  .rating {
+    width: 15rem;
+  }
+  .rating-text {
+    padding: 5px;
+  }
+  .flax {
+    flex-direction: column;
+  }
+  .open-world-content {
+    padding: 2rem;
+  }
+  .content-head {
+    font-size: 3.2rem;
+  }
+  .content-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  footer {
+    padding: 1rem 2rem;
+    column-gap: 1rem;
+  }
+
+  .contact h3,
+  .navigation h3,
+  .social h3,
+  .find-us h3 {
+    font-size: 1.6rem;
+    color: white;
+  }
+  .contact p,
+  .navigation p,
+  .social p {
+    font-size: 1.2rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+}
